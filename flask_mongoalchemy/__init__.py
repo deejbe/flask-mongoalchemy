@@ -125,7 +125,7 @@ class MongoAlchemy(object):
                                                safe=app.config.get(key('SAFE_SESSION'),
                                                                    False),
                                                timezone = timezone,
-                                               host=uri, replicaSet=rs)
+                                               host=uri)
         self.Document._session = self.session
 
 
