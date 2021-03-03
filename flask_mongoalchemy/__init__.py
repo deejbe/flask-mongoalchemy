@@ -26,7 +26,7 @@ def _get_mongo_uri(app, key=lambda x:'MONGOALCHEMY_%s' % x):
     app.config.setdefault(key('USER'), None)
     app.config.setdefault(key('PASSWORD'), None)
     app.config.setdefault(key('OPTIONS'), None)
-    app.config.setdefault(key('REPLICA_SET'), '')
+    app.config.setdefault(key('REPLICA_SET'), None)
 
     auth = ''
     database = ''
