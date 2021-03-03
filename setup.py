@@ -39,7 +39,7 @@ setup(
     install_requires=[
         'Flask>=0.9',
         'MongoAlchemy==0.19',
-        'pymongo==2.8.1',
+        'pymongo==3.11.3',
     ],
     classifiers=[
         'Environment :: Web Environment',
